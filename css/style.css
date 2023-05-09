@@ -78,6 +78,37 @@ section > div{
     margin-bottom: 40px;
 }
 
+
+.container-2{
+    background-color: white;
+}
+
+
+.flex-container-2{
+    display: flex;
+    justify-content: center;
+    margin: 0 35px;
+
+}
+
+
+.blue-box{
+    height: 400px;
+    width: 60%;
+    background-color:#1E90FF;
+}
+
+.pink-box{
+    height: 400px;
+    width: 40%;
+    background-color:#FFC0CB;
+}
+
+.container-3{
+    background-color: #D3D3D3;
+}
+
+
     
     
 
