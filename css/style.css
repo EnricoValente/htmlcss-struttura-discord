@@ -17,3 +17,45 @@ body{
 
 
 /* DEBUG */
+
+
+.container{
+   height: 100px;
+   background-color:#ADD8E6;
+   
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DAA520;
+    height: 45px;
+    margin: 25px;
+    border: 1px dashed;
+    
+
+}
+    
+.flex-small{
+    width: 25%;
+    padding: 20px;
+    border: 1px dashed;
+}
+
+.flex-big{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed;
+}
+    
+    
+    
+
+
+    
+    
+
+
+
