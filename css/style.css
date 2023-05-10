@@ -168,4 +168,16 @@ section > div{
     border: 1px dashed white;
 }
 
+footer{
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+footer > div{
+    background-color: #FFC0CB;
+    padding: 10px;
+    border: 1px dashed;
+}
 
