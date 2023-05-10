@@ -84,6 +84,8 @@ section > div{
 }
 
 
+/* SECTIONS 2-3-4 */
+
 .flex-container-2{
     display: flex;
     justify-content: center;
@@ -109,7 +111,18 @@ section > div{
 }
 
 
-    
+/* SECTION 5 */
+
+.background-color{
+    background-color: lightgray;
+}
+
+
+   .big-col{
+        height: 500px;
+        background-color: green;
+        border: 2px dashed;
+   } 
     
 
 
