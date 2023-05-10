@@ -33,11 +33,11 @@ body{
 
 .flex-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #DAA520;
-    height: 45px;
-    margin: 25px;
-    border: 1px dashed;
+    height: 25px;
+    padding: 20px;
+    
     
     
 
@@ -47,6 +47,7 @@ body{
     width: 25%;
     padding: 20px;
     border: 1px dashed;
+    background-color: #DAA520;
 }
 
 .flex-big{
@@ -54,6 +55,7 @@ body{
     text-align: center;
     padding: 20px;
     border: 1px dashed;
+    background-color: #DAA520;
 }
     
     
@@ -124,6 +126,46 @@ section > div{
         border: 2px dashed;
    } 
     
+/* SECTION 6 */
 
+.dark-gray{
+    background-color: #23272A;
+}
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.my-col{
+    height: 400px;
+    border: 1px dashed;
+}
+
+
+.small{
+    background-color: #EE82EE;
+    width: 30%;
+}
+
+.big{
+    background-color: #ADD8E6;
+    width: 70%;
+    
+}
+
+.my-row-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.my-row-2 > div{
+    height: 400px;
+    width: calc(100% / 4);
+    border: 1px dashed white;
+}
 
 
